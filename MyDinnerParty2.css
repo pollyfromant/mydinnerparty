@@ -15,6 +15,7 @@ left: 0px;
 top: 0px;
 font-family: 'Oleo Script', Helvetica, sans-serif;
 font-size: medium;
+text-align: center;
 
 }
 
@@ -50,6 +51,7 @@ float:right;
 margin-right: 100px;
 }
 
+
 head {
 font: bold 24px/45px Helvetica, Sans-Serif;
 
@@ -82,19 +84,6 @@ a {
   text-align: center;
   position: relative;
 }
-
-  .btn {
-  display: inline-block;
-  margin: 10px 10px 10px 10px;
-  padding: 10px 10px;
-  font-size: 12px;
-  line-height: 0.8;
-  box-shadow: 4px 4px 0px rgba(0,0,0,0.1);
-  border-radius: 0;
-  background: white;
-  padding-bottom: 10px;
-
-  }
 
 blockquote {
   border-left: 0;
@@ -166,4 +155,6 @@ p {
   margin-top: -1px;
 
 }
+
+
 
