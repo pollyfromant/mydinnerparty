@@ -4,60 +4,59 @@
 	<link rel="stylesheet" type="css" href="MyDinnerParty2.css">
 	<link href="http://fonts.googleapis.com/css?family=Oleo+Script" rel="stylesheet" type="text/css">
 	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+  <meta charset='utf-8'>
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+   <script src="script.js"></script>
 	<title>#MyDinnerParty</title>
 </head>
 
+
 <body>
-<nav class="navbar navbar-default">
-  <div class="container">
 
-<ul>
-  <li><a href="aboutus.asp">About</a></li>
-  <li><a href="contactus.asp">Contact</a></li>
-  <li><a href="contactus.asp">Shop</a></li>
-  <button type="button" class="btn btn-default navbar-btn">Sign in</button>
-
+  <div id='cssmenu'>
+  <ul>
+   <li class='active'><a href='#'><span>Home</span></a></li>
+   <li><a href='#'><span>Contact</span></a></li>
+   <li><a href='#'><span>Sign in</span></a></li>
+   <li class='last'><a href='#'><span>Search</span></a></li>
 </ul>
- </div>
-</nav>
-	<div class="jumbotron">
+</div>
+
+<div class="jumbotron">
 
 	
 	<h1>#MyDinnerParty</h1>
 
-	<div class="box">
-  <div class="container-1">
-      <span class="icon"><i class="fa fa-search"></i></span>
-      <input type="search" id="search" placeholder="Search..." />
+<form>
+<input type="text" placeholder="Search..." required>
+<input type="button" value="Search">
+</form>
   </div>
-</div>
-	</div>
+
+
 
 
   <h2>Time to eat...</h2>
-  <div class='row'>
-      <div class='col-sm-4'>
-      	<div class="image">
-      <img src='images/starter.jpeg' class = 'img-rounded img-responsive'>
-      <h3><span>Starters</span></h3> 
-  		</div>
-  		</div>
-      
-  	
-      <div class='col-sm-4'>
-      	<div class="image">
-      <img src='images/main.jpeg' class = 'img-circle'>
-      <h3><span>Mains</span></h3>
-  </div>
-  </div>
-
-    <div class='col-sm-4'>
-    	<div class="image">
-      <img src='images/dessert.jpeg' class = 'img-circle'>
-      <h3><span>Desserts</span></h3>
-  </div>
-	</div>
+   <div align="center" class="category">
+        <img src="images/starter3.jpeg" class="img-circle" />
+          <p>Starters</p> 
+        </div>
+        <div align="center" class="category2">
+        <img src="images/main.jpeg" class="img-circle"  />
+         <p>Mains</p>
+        </div>
+        <div align="center" class="category3">
+        <img src="images/dessert.jpeg" class="img-circle" />
+        <p>Desserts</p>
 </div>
+
+<div class="p1">Here at #MyDinnerParty we're dedicated to finding you the best meals to make for the best evenings. Share your creations using our hashtag...
+
+</div>
+
+  
 
 
 
